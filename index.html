@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OctaSim 6-DOF — Simulador de Voo 3D</title>
+    <meta name="description" content="Simulador de voo 3D em tempo real (6-DOF + 8 motores RK4) de um Octacóptero Elétrico de 8,0 kg com vento, rajadas, telemetria e suporte a gamepads." />
+    <meta property="og:title" content="OctaSim 6-DOF — Simulador de Voo 3D" />
+    <meta property="og:description" content="Simulador de voo 3D em tempo real (6-DOF + 8 motores RK4) de um Octacóptero Elétrico de 8,0 kg com vento, rajadas, telemetria e suporte a gamepads." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#09111e" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="OctaSim 6DOF" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="stylesheet" href="/src/index.css" />
+  </head>
+  <body>
+    <div id="sim-root">
+      <canvas id="sim-canvas"></canvas>
+      <div id="hud-root"></div>
+    </div>
+    <script type="module" src="/src/index.ts"></script>
+  </body>
+</html>

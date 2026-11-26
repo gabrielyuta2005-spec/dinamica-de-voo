@@ -1,0 +1,30 @@
+{
+  "appId": "br.edu.ifsp.octasim6dof",
+  "productName": "OctaSim 6-DOF",
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*",
+    "electron/**/*",
+    "public/pwa-512x512.png"
+  ],
+  "extraMetadata": {
+    "main": "electron/main.cjs"
+  },
+  "win": {
+    "target": [
+      "portable",
+      "nsis"
+    ],
+    "icon": "public/pwa-512x512.png"
+  },
+  "portable": {
+    "artifactName": "OctaSim-6DOF-Portable.exe"
+  },
+  "nsis": {
+    "artifactName": "OctaSim-6DOF-Setup.exe",
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true
+  }
+}

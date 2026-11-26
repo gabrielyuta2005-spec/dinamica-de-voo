@@ -1,0 +1,6 @@
+{
+  "name": "OctaSim 6-DOF — Simulador de Voo 3D",
+  "description": "Simulador de voo 3D em tempo real (6-DOF + 8 motores RK4) de um Octacóptero Elétrico de 8,0 kg com vento, rajadas, telemetria e suporte a gamepads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
